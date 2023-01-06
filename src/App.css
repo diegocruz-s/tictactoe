@@ -36,9 +36,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  position: relative;
   font-size: 4em;
+  width: 30%;
+  height: 33.6%;
+  position: relative;
   cursor: pointer;
 }
 .element:nth-child(-n+3) {

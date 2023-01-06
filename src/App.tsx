@@ -110,7 +110,6 @@ function App() {
               <p className={(element !== 1 && element !== 2) ? 'noElement' : ''}>
                 <span className='letterX'>{element === 1 && 'X'}</span>
                 <span className='letterY'>{element === 2 && 'O'}</span>
-                {(element !== 1 && element !== 2) && 'N'}
               </p>
           </div>
         ))}
